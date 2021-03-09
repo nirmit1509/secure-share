@@ -1,0 +1,29 @@
+body {
+    background: radial-gradient(#e5e5e5, #ffff, #e5e5e5);
+    padding: 20px 40px;
+    border: 20px;
+}
+
+.card {
+    width: 25rem;
+}
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+.card-body {
+    padding: 3rem 1.2rem !important;
+}
+.card-text {
+    font-size: 0.9rem;
+}
+
+.container-fluid .row {
+    padding: 0.7rem;
+ }
+#odd1, #even2 {
+    background: repeating-linear-gradient(#1ce4c9, #ffff, #bdeef0);
+}
+
+#even1, #odd2 {
+    background: repeating-linear-gradient(#b874f0, #ffff, #e0b7f1);
+}
